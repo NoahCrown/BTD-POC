@@ -131,7 +131,7 @@ BTD 1 will run until approximately 8th April 2024 from mid March. Upon successfu
 ## How to Setup
 
 1. cd server
-2. node install
+2. npm install
 3. node poc.js
 
 ## Sample payload data
