@@ -1,0 +1,15 @@
+{
+  :btd-1.info-sharing.network {
+    :details {
+      :name "ISN BTD 1"
+      :purpose "Exchanging pre-notification and related compliance signals"
+    }
+    :signals {
+      :pre-notification {
+        :description "Indicators about incoming goods movements"
+        :list-payload-keys [:cnCodes :countryOfOrigin]
+        :expiry-days-from-now 14
+      }
+    }
+  }
+ }

@@ -1,0 +1,170 @@
+[
+  {
+    "h": "event",
+    "name": "chicken and beef",
+    "start": "2024-03-25T15:00:00.00Z",
+    "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z",
+    "category": [
+      "pre-notification",
+      "isn@btd-1.info-sharing.network"
+    ],
+    "payload": {
+      "cnCodes": [
+        "cnchicken123",
+        "cnbeef123"
+      ],
+      "commodityDescription": "Chicken 40%, beef 60%",
+      "countryOfOrigin": "GB",
+      "chedNumbers": [
+        "CN010203"
+      ],
+      "unitIdentification": {
+        "ContainerNumber": "containerNo123"
+      },
+      "mode": "RORO",
+      "exporterEORI": "eori-exp-01",
+      "importerEORI": "eori-imp-01"
+    }
+  },
+  {
+    "h": "event",
+    "name": "brazil nuts",
+    "start": "2024-03-25T15:00:00.00Z",
+    "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z",
+    "category": [
+      "pre-notification",
+      "isn@btd-1.info-sharing.network"
+    ],
+    "description": "cnCode=cnNuts^countryOfOrigin=GB^mode=RORO"
+  },
+  {
+    "h": "event",
+    "name": "brazil nuts",
+    "start": "2024-03-25T15:00:00.00Z",
+    "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z",
+    "category": [
+      "pre-notification",
+      "isn@btd-1.info-sharing.network"
+    ],
+    "description": "cnCode=cnNuts^countryOfOrigin=GB^mode=RORO"
+  },
+  {
+    "h": "event",
+    "name": "brazil nuts",
+    "start": "2024-03-25T15:00:00.00Z",
+    "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z",
+    "category": [
+      "pre-notification",
+      "isn@btd-1.info-sharing.network"
+    ],
+    "description": "cnCode=cnNuts^countryOfOrigin=GB^mode=RORO"
+  },
+  {
+    "h": "event",
+    "name": "chicken and beef",
+    "start": "2024-03-25T15:00:00.00Z",
+    "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z",
+    "category": [
+      "pre-notification",
+      "isn@btd-1.info-sharing.network"
+    ],
+    "payload": {
+      "cnCodes": [
+        "cnchicken123",
+        "cnbeef123"
+      ],
+      "commodityDescription": "Chicken 40%, beef 60%",
+      "countryOfOrigin": "GB",
+      "chedNumbers": [
+        "CN010203"
+      ],
+      "unitIdentification": {
+        "ContainerNumber": "containerNo123"
+      },
+      "mode": "RORO",
+      "exporterEORI": "eori-exp-01",
+      "importerEORI": "eori-imp-01"
+    }
+  },
+  {
+    "h": "event",
+    "name": "chicken and beef",
+    "start": "2024-03-25T15:00:00.00Z",
+    "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z",
+    "category": [
+      "pre-notification",
+      "isn@btd-1.info-sharing.network"
+    ],
+    "payload": {
+      "cnCodes": [
+        "cnchicken123",
+        "cnbeef123"
+      ],
+      "commodityDescription": "Chicken 40%, beef 60%",
+      "countryOfOrigin": "GB",
+      "chedNumbers": [
+        "CN010203"
+      ],
+      "unitIdentification": {
+        "ContainerNumber": "containerNo123"
+      },
+      "mode": "RORO",
+      "exporterEORI": "eori-exp-01",
+      "importerEORI": "eori-imp-01"
+    }
+  },
+  {
+    "h": "event",
+    "name": "chicken and beef",
+    "start": "2024-03-25T15:00:00.00Z",
+    "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z",
+    "category": [
+      "pre-notification",
+      "isn@btd-1.info-sharing.network"
+    ],
+    "payload": {
+      "cnCodes": [
+        "cnchicken123",
+        "cnbeef123"
+      ],
+      "commodityDescription": "Chicken 40%, beef 60%",
+      "countryOfOrigin": "GB",
+      "chedNumbers": [
+        "CN010203"
+      ],
+      "unitIdentification": {
+        "ContainerNumber": "containerNo123"
+      },
+      "mode": "RORO",
+      "exporterEORI": "eori-exp-01",
+      "importerEORI": "eori-imp-01"
+    }
+  },
+  {
+    "h": "event",
+    "name": "chicken and beef",
+    "start": "2024-03-25T15:00:00.00Z",
+    "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z",
+    "category": [
+      "pre-notification",
+      "isn@btd-1.info-sharing.network"
+    ],
+    "payload": {
+      "cnCodes": [
+        "cnchicken123",
+        "cnbeef123"
+      ],
+      "commodityDescription": "Chicken 40%, beef 60%",
+      "countryOfOrigin": "GB",
+      "chedNumbers": [
+        "CN010203"
+      ],
+      "unitIdentification": {
+        "ContainerNumber": "containerNo123"
+      },
+      "mode": "RORO",
+      "exporterEORI": "eori-exp-01",
+      "importerEORI": "eori-imp-01"
+    }
+  }
+]
