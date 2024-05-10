@@ -127,3 +127,36 @@ TODO: from user research sessions and workshops
 ## Timeline
 
 BTD 1 will run until approximately 8th April 2024 from mid March. Upon successful evaluation the EoT Toolkit (ISN machinery and Collaboration agreement may be used for free by any and all participants who choose to continue on. ISN machinery will need to be hosted either cooperatively on cloud infrastructure for participants or individually by participants per the hosting reqiurements.
+
+## How to Setup
+
+1. cd server
+2. node install
+3. node poc.js
+
+## Sample payload data
+
+# Getting a Oauth Token
+On the terminal 
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "password": "password"}' http://localhost:3000/login
+
+# Passing example datas
+Note: Replace the bearer token with the token you get from the login
+The simplest possible BTD 1 relevant signal (using the x-www-form-urlencoded content type) would look something like the below (N.B. swap out cnCode, unitId and other fields for relevant values etc):
+
+curl -i -X POST -H "Content-Type: application/json" -H "Authorization: Bearer 
+*Insert Bearer Token here* " -d '{"h": "event", "name": "chicken and beef", "start": "2024-03-25T15:00:00.00Z", "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z", "category": ["pre-notification", "isn@btd-1.info-sharing.network"], "payload": {"cnCodes": ["cnchicken123", "cnbeef123"], "commodityDescription": "Chicken 40%, beef 60%", "countryOfOrigin": "GB", "chedNumbers": ["CN010203"], "unitIdentification": {"ContainerNumber": "containerNo123"}, "mode": "RORO", "exporterEORI": "eori-exp-01", "importerEORI": "eori-imp-01"}}' http://localhost:3000/pre-notification
+
+It is also possible to create a signal by passing JSON to the micropub endpoint:
+
+curl -i -X POST -H "Content-Type: application/json" -H "Authorization: Bearer *Insert Bearer Token here*" -d '{"h": "event", "name": "brazil nuts", "start": "2024-03-25T15:00:00.00Z", "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z", "category": ["pre-notification", "isn@btd-1.info-sharing.network"], "description": "cnCode=cnNuts^countryOfOrigin=GB^mode=RORO"}' http://localhost:3000/pre-notification
+
+A more complex payload can be passed in when using JSON by adding a 'payload' field:
+
+curl -i -X POST -H "Content-Type: application/json" -H "Authorization: Bearer *Insert Bearer Token here*" -d '{"h": "event", "name": "chicken and beef", "start": "2024-03-25T15:00:00.00Z", "summary": "moving to PortA with ETA 2024-03-25T15:00:00.00Z", "category": ["pre-notification", "isn@btd-1.info-sharing.network"], "payload": {"cnCodes": ["cnchicken123", "cnbeef123"], "commodityDescription": "Chicken 40%, beef 60%", "countryOfOrigin": "GB", "chedNumbers": ["CN010203"], "unitIdentification": {"ContainerNumber": "containerNo123"}, "mode": "RORO", "exporterEORI": "eori-exp-01", "importerEORI": "eori-imp-01"}}' http://localhost:3000/pre-notification
+
+
+
+
+
+
