@@ -1,25 +1,32 @@
 {
-  "start": "2024-03-25T15:00:00.00Z",
-  "signalId": "eed7ecdd-f5f1-4486-b36c-a7916cb465fa",
-  "correlationId": "9a9ea012-3f95-414d-9ce1-9a7392e9407a",
+  "provider": "ExampleProvider",
+  "start": "2024-06-25T10:00:00Z",
+  "end": "2024-06-25T11:00:00Z",
+  "published": "2024-06-25T09:00:00Z",
+  "signalId": "ce87df2b-09d7-4494-ab4c-4ae4462b522a",
+  "correlationId": "ef222294-29d6-48bb-b506-fc068eaa372d",
   "category": [
-    "pre-notification",
-    "isn@btd-1.info-sharing.network"
+    "pre-notification"
   ],
+  "object": "ExampleObject",
+  "predicate": "ExamplePredicate",
   "payload": {
     "cnCodes": [
-      "cnchicken123",
-      "cnbeef123"
+      "1234",
+      "5678"
     ],
-    "countryOfOrigin": "GB",
-    "commodityDescription": "Chicken 40%, beef 60%",
+    "countryOfOrigin": "CountryA",
+    "commodityDescription": "Example Commodity",
     "chedNumbers": [
-      "CN010203"
+      "CHED123"
     ],
-    "unitIdentification": {},
-    "mode": "RORO",
-    "exporterEORI": "eori-exp-01",
-    "importerEORI": "eori-imp-01"
+    "unitIdentification": {
+      "containerNumber": "CONT1234567",
+      "trailerRegistrationNumber": "TRAILER1234"
+    },
+    "mode": "air",
+    "exporterEORI": "ExporterEORI123",
+    "importerEORI": "ImporterEORI123"
   },
-  "message": "Your comment here"
+  "message": "This is useful"
 }

@@ -50,6 +50,12 @@ const findObjectByCorrelationId = (correlationId, data) => {
   return data.find(obj => obj.correlationId === correlationId);
 };
 
+
+
+app.get('/', (req,res) => {
+  res.json({"message": "Working"})
+})
+
 /**
  * This simulates logging in on a micropub site using a website. 
  * It allows you to get your token to be use in sending signals and accessing other apis.
@@ -67,6 +73,8 @@ app.post('/login', (req, res) => {
     res.status(401).json({ error: 'Invalid credentials' });
   }
 });
+
+
 
 /**
  * The endpoint where the signal is sent
